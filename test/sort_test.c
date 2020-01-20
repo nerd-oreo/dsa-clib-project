@@ -28,14 +28,16 @@ void test(int t) {
         int a[n];
 
         for(int j = 0; j < n; j++) {
-            a[j] = random_number(1, 100);
+            a[j] = random_number(1, 999);
         }
         printf("\n");
         // print array before test function
         printf("Before test:\n");
         print_arr(a, n);
 
-        // test function
+        /* TEST FUNCTION WILL BE HERE */
+        merge_sort(a, n);
+        /******************************/
 
         // print array after test function
         printf("After test:\n");
@@ -49,6 +51,7 @@ int main(void) {
 
     int t;
 
+    system("@cls||clear");
     printf("T: ");
     scanf("%d", &t);
     test(t);
