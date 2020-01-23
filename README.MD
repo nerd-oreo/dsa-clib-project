@@ -3,5 +3,6 @@
 
 ### Algorithms Implemented
  * Linked List
+ * [Merge Sort](./sort)
 
 *Created date: Jan 17, 2020*
